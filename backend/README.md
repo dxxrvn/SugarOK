@@ -29,10 +29,8 @@
 5. В powershell (Windows) или bash (Linux) проверяете, все ли установилось, с помощью команд:
 
 <pre>
-```
 # Powershell/bash
 node -v
-```
 </pre>
 
 При успешной установке в консоль придёт ответ: v{actualVersion}. Например: v24.21.0
@@ -48,11 +46,10 @@ node -v
 ## 3. Установка необходимых зависимостей
 
 <pre>
-```
 # Powershell/bash
-cd backend // попадаем в нужную папку
+cd backend 
+# попадаем в нужную папку
 npm install
-```
 </pre>
 
 ## 4. Запуск сервера
@@ -60,10 +57,8 @@ npm install
 Тут в целом всё просто, запуск происходит одной командой:
 
 <pre>
-```
 # Powershell/bash
 node main.js
-```
 </pre>
 
 Главное убедитесь, что запускаете команду из папки SugarOK/backend.
